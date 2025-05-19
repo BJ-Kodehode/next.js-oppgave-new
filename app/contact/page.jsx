@@ -4,16 +4,7 @@ export default function ContactUs() {
   return (
     <HeaderFooter>
       <main style={{ textAlign: "center", padding: "20px" }}>
-        <section
-          id="contact-us"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, blue, red)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "white",
-          }} /* Blue to red gradient */
-        >
+        <section id="contact-us">
           <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>
             Kontakt oss hvis du tør
           </h1>
@@ -23,16 +14,7 @@ export default function ContactUs() {
           </p>
         </section>
 
-        <section
-          id="contact-methods"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, red, purple)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "white",
-          }} /* Red to purple gradient */
-        >
+        <section id="contact-methods">
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Kontakt Metoder som kanskje fungerer
           </h2>
@@ -45,16 +27,7 @@ export default function ContactUs() {
           <p>Alvedusk: Finnes ikke i dekning</p>
         </section>
 
-        <section
-          id="working-hours"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, green, yellow)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "black",
-          }} /* Green to yellow gradient */
-        >
+        <section id="working-hours">
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>Arbeidstid</h2>
           <p>Mandag: oppdaterer databasen</p>
           <p>Tirsdag: Når vi er ferdig med å spise kake</p>
@@ -65,16 +38,7 @@ export default function ContactUs() {
           <p>Søndag: Roper på elgen</p>
         </section>
 
-        <section
-          id="important-warning"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, orange, red)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "white",
-          }} /* Orange to red gradient */
-        >
+        <section id="important-warning">
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Viktig Advarsel
           </h2>

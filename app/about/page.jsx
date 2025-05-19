@@ -5,16 +5,7 @@ export default function About() {
     <HeaderFooter>
       
       <main style={{ textAlign: "center", padding: "20px" }}>
-        <section
-          id="who-we-are"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, blue, red)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "white",
-          }} /* Blue to red gradient */
-        >
+        <section id="who-we-are">
           <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>
             Hvem er vi???
           </h1>
@@ -25,16 +16,7 @@ export default function About() {
           </p>
         </section>
 
-        <section
-          id="our-dubious-history"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, red, purple)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "white",
-          }} /* Red to purple gradient */
-        >
+        <section id="our-dubious-history">
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Vår tvilsomme historie
           </h2>
@@ -46,16 +28,7 @@ export default function About() {
           </p>
         </section>
 
-        <section
-          id="our-services"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, green, yellow)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "black",
-          }} /* Green to yellow gradient */
-        >
+        <section id="our-services">
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Tjenestene våre
           </h2>
@@ -67,16 +40,7 @@ export default function About() {
           <p>Ekspertise i å gjøre enkle ting kompliserte</p>
         </section>
 
-        <section
-          id="our-values"
-          style={{
-            margin: "20px auto",
-            background: "linear-gradient(to right, orange, red)",
-            padding: "20px",
-            borderRadius: "10px",
-            color: "white",
-          }} /* Orange to red gradient */
-        >
+        <section id="our-values">
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Verdiene til sjappa
           </h2>
