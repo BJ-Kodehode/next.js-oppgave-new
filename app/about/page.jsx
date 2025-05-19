@@ -1,8 +1,12 @@
-export default function about() {
+import HeaderFooter from "../HeaderFooter";
+
+export default function About() {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>We are a company dedicated to providing the best service.</p>
-    </div>
+    <HeaderFooter>
+      <div style={{ textAlign: "center", padding: "20px" }}>
+        <h1>About Us</h1>
+        <p>Learn more about who we are and what we do.</p>
+      </div>
+    </HeaderFooter>
   );
 }
