@@ -13,9 +13,9 @@ export default function Home() {
       </section>
 
       <section id="gimli-section">
-        <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>Møt denne fantastiske</h2>
+        <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>Møt denne fantastiske figuren her fra Ringenes Herre</h2>
         <Image src="/Gimli.png" alt="Gimli" width={300} height={300} style={{ display: "block", margin: "0 auto", borderRadius: "10px" }} />
-        <p>Han er fra Middel Earth og er den kuleste karakteren fra den tiden</p>
+        <p>Han er fra Middel Earth og er den kuleste karakteren fra dette universet</p>
       </section>
     </HeaderFooter>
   );
