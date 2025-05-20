@@ -20,7 +20,7 @@ export default function ContactUs() {
           </h2>
           <p>E-post: kake@cookies.no</p>
           <p>
-            Telefon: +47 Ring VilloUtvikling (vi har telefontjeneste fra år
+            Telefon: +47 Ring kakeutviklingen (vi har telefontjeneste fra år
             1876)
           </p>
           <p>Adresse: Alveskogen 300</p>
