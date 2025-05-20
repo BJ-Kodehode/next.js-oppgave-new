@@ -22,9 +22,9 @@ export default function About() {
           </h2>
           <p>
             Selskapet ble grunnlagt en januar dag i 19 pil og bue da man gikk tom
-            for sjokolademelg. Da skulle vi bli sersiøse. Den første kunden var en
+            for sjokolademelk. Da skulle vi bli sersiøse. Den første kunden var en
             Hav ørn som trengte en nettside. Hav ørnen er en teknisk direktør som
-            tok over som direktør. Ørnen hjelper til med algoritme.
+            tok over som direktør. Ørnen hjelper til med algoritmene.
           </p>
         </section>
 

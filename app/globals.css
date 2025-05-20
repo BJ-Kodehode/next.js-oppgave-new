@@ -12,9 +12,10 @@
   }
 }
 
+/* Continuous gradient background for all pages */
 body {
-  background: linear-gradient(to bottom, blue, purple, red, orange);
-  color: white;
+  background: linear-gradient(to bottom, #2E2B23, #6B4C3B, #556B2F, #C19A6B);
+  color: #DCC7A1; /* Warm parchment beige */
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -33,5 +34,23 @@ section {
   margin: 0 auto;
   text-align: center;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1); /* Slight transparency for blending */
+  background: rgba(255, 255, 255, 0.05); /* Slight transparency for blending */
+  color: inherit;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #C19A6B; /* Bronze/gold hint */
+  color: #2E2B23; /* Dark forest brown */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #556B2F; /* Forest green */
+  color: #DCC7A1; /* Warm parchment beige */
 }

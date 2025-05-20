@@ -21,14 +21,16 @@ export default function ContactUs() {
           <p>E-post: kake@cookies.no</p>
           <p>
             Telefon: +47 Ring VilloUtvikling (vi har telefontjeneste fra år
-            1300)
+            1876)
           </p>
           <p>Adresse: Alveskogen 300</p>
-          <p>Alvedusk: Finnes ikke i dekning</p>
+          <p>Alvedusk: Dekning eksisterer ikke over hode </p>
         </section>
 
         <section id="working-hours">
-          <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>Arbeidstid</h2>
+          <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
+            Arbeidstid
+          </h2>
           <p>Mandag: oppdaterer databasen</p>
           <p>Tirsdag: Når vi er ferdig med å spise kake</p>
           <p>Onsdag: Møtedag om hvordan man skal arbeide</p>
@@ -42,10 +44,14 @@ export default function ContactUs() {
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Viktig Advarsel
           </h2>
-          <p>Kontakt oss hvis du tør er en seksjon</p>
-          <p>Kontakt Metoder som kanskje fungerer er en egen seksjon</p>
-          <p>Arbeidstid er en egen seksjon</p>
-          <p>Viktig Advarsel er en egen seksjon</p>
+          <p>Vi minner om at "det virker ikke" ikke er en feilspecifikasjon,</p>
+          <p>men heller en eksistensiell tilstand.</p>
+          <p>For mer presise tilbakemeldinger, vennligst inkluder:</p>
+          <p>Hva du forsøkte å gjøre</p>
+          <p>Hva som faktisk skjedde</p>
+          <p>Hvor nær du var ved å kaste maskinen ut vinduet</p>
+          <p>Med vennlig hilsen,</p>
+          <p>Dokumentasjonsdepartementet for Kodemagi</p>
         </section>
       </main>
     </HeaderFooter>
