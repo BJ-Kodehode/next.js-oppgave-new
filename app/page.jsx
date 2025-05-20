@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <HeaderFooter>
       <section id="welcome-section">
-        <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>Welcome to Our Website</h1>
+        <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>Welcome to Our Website. This site is under deveopment</h1>
         <p>This is some random information about our site. Feel free to explore!</p>
       </section>
 
