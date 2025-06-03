@@ -1,12 +1,10 @@
 "use client";
 
-import { useRouter } from "next/router";
 import HeaderFooter from "../HeaderFooter";
 import Link from "next/link";
 
-export default function ServicePage() {
-  const router = useRouter();
-  const { service } = router.query;
+export default function ServicePage({ params }) {
+  const { service } = params;
 
   console.log("Service query:", service);
 
@@ -25,19 +23,25 @@ export default function ServicePage() {
     },
   };
 
-  const serviceInfo = serviceData[service?.toLowerCase()] || {
-    name: "Ukjent tjeneste",
-    description: "Ingen informasjon tilgjengelig.",
-  };
+  const serviceInfo = serviceData[service.toLowerCase()];
+
+  if (!serviceInfo) {
+    return (
+      <HeaderFooter>
+        <main style={{ textAlign: "center", padding: "20px" }}>
+          <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>Service ikke funnet</h1>
+          <p>Beklager, vi kunne ikke finne informasjon om denne tjenesten.</p>
+          <Link href="/services">Tilbake til tjenester</Link>
+        </main>
+      </HeaderFooter>
+    );
+  }
 
   return (
     <HeaderFooter>
       <main style={{ textAlign: "center", padding: "20px" }}>
         <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>{serviceInfo.name}</h1>
         <p>{serviceInfo.description}</p>
-        <Link route="/services/webdesign">
-          <button style={{ margin: "5px", padding: "10px 20px", backgroundColor: "#C19A6B", color: "#2E2B23", border: "none", borderRadius: "5px", cursor: "pointer" }}>Webdesign</button>
-        </Link>
       </main>
     </HeaderFooter>
   );
