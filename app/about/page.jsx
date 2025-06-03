@@ -32,12 +32,7 @@ export default function About() {
           <h2 style={{ fontSize: "1.5rem", margin: "0 0 10px" }}>
             Tjenestene våre
           </h2>
-          <p>Webdesign som fungerer i alle nettlesere</p>
-          <p>Responsiv funksjon</p>
-          <p>Next.js-utvikling (vi bruker AI tutorial)</p>
-          <p>Brukervennlighet er utført av tante Olga</p>
-          <p>Profesjonell prokrastinering og deadline-utvidelse</p>
-          <p>Ekspertise i å gjøre enkle ting kompliserte</p>
+          <p>Explore our services to learn more about what we offer.</p>
         </section>
 
         <section id="our-values">
