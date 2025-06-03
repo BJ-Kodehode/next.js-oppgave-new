@@ -54,3 +54,9 @@ button:hover {
   background-color: #556B2F; /* Forest green */
   color: #DCC7A1; /* Warm parchment beige */
 }
+
+/* Maintain aspect ratio of images */
+img {
+  width: auto;
+  height: auto;
+}

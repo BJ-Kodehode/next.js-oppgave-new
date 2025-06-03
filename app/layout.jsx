@@ -24,6 +24,20 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body>
+      <link
+        rel="preload"
+        href="/GeistSans.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="preload"
+        href="/GeistMono.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </html>
   );
 }
