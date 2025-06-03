@@ -8,7 +8,7 @@ export default function HeaderFooter({ children }) {
       {/* Header */}
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px 50px", backgroundColor: "#2E2B23", color: "#DCC7A1" }}> {/* Dark forest brown background */}
         <h1 style={{ fontSize: "2.5rem", margin: "0" }}>
-          <Link href="/" style={{ textDecoration: "none", color: "#C19A6B" }}>Home Page</Link> {/* Bronze/gold hint */}
+          <Link href="/" style={{ textDecoration: "none", color: "#C19A6B" }}>Gimli's Home Page</Link> {/* Bronze/gold hint */}
         </h1>
         <nav style={{ display: "flex", gap: "10px" }}>
           <Link href="/">
