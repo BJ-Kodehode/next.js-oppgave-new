@@ -20,6 +20,12 @@ export default function HeaderFooter({ children }) {
           <Link href="/contact">
             <button style={{ margin: "5px", padding: "10px 20px", backgroundColor: "#C19A6B", color: "#2E2B23", border: "none", borderRadius: "5px", cursor: "pointer" }}>Contact</button>
           </Link>
+          <Link href="/characters/gimli">
+            <button style={{ margin: "5px", padding: "10px 20px", backgroundColor: "#C19A6B", color: "#2E2B23", border: "none", borderRadius: "5px", cursor: "pointer" }}>Gimli</button>
+          </Link>
+          <Link href="/services/webdesign">
+            <button style={{ margin: "5px", padding: "10px 20px", backgroundColor: "#C19A6B", color: "#2E2B23", border: "none", borderRadius: "5px", cursor: "pointer" }}>Webdesign</button>
+          </Link>
         </nav>
       </header>
 
