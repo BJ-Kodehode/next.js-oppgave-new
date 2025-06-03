@@ -2,10 +2,13 @@
 
 import { useRouter } from "next/router";
 import HeaderFooter from "../HeaderFooter";
+import Link from "next/link";
 
 export default function ServicePage() {
   const router = useRouter();
   const { service } = router.query;
+
+  console.log("Service query:", service);
 
   const serviceData = {
     webdesign: {
@@ -32,6 +35,9 @@ export default function ServicePage() {
       <main style={{ textAlign: "center", padding: "20px" }}>
         <h1 style={{ fontSize: "2rem", margin: "0 0 10px" }}>{serviceInfo.name}</h1>
         <p>{serviceInfo.description}</p>
+        <Link route="/services/webdesign">
+          <button style={{ margin: "5px", padding: "10px 20px", backgroundColor: "#C19A6B", color: "#2E2B23", border: "none", borderRadius: "5px", cursor: "pointer" }}>Webdesign</button>
+        </Link>
       </main>
     </HeaderFooter>
   );
